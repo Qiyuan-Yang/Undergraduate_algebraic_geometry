@@ -9,6 +9,7 @@
 \usepackage{amsthm}
 \usepackage{graphicx} %图片
 \usepackage{tikz} %画图
+\usepackage{caption}
 \usepackage{geometry}
 \usepackage{amsfonts}
 \usepackage{amssymb}
@@ -1814,8 +1815,22 @@
 	\section*{练习}
 		\subsection{取$f=X^{2}-Y^{2}$及$g=X^{3}+X Y^{2}-Y^{3}-X^{2} Y-X+Y ;$找出$V ( f , g ) \subset \mathbb{A} ^{2}_\mathbb{C}$的不可约成分.}
 		
+		
+			解：显然$ f = (X-Y)(X+Y) ,g = (X - Y) (X^{2} + Y^{2} - 1)$.
+			
+			
+			因此取$ J = (f,g) $则有$ J \in (X+Y)*f - 1*g = (X - Y) (1 + 2 X Y) $,其中$ X-Y,1+2XY \notin J $,因此$ V(J) = V(J,X-Y) \cup V(J,1+2XY) $.
+			
+			
+			显然,$ V(J,X-Y) $是直线$ (X = Y) $,同时另外一部分$ C = V(J,1+2XY) $是一个不可约曲线.因此$V ( f , g ) \subset \mathbb{A} ^{2}_\mathbb{C}$的不可约成分为$ C = V(f , g,1+2XY) $
+			
+			
+			
 		\subsection{若$J =\left( uw - v ^{2}, w ^{3}- u ^{5}\right),$证明$V ( J )$有两个不可约成分,并且其中之一是(3.11,b)中的曲线$ C $.}
 		证明同一个曲线$ C $可以由两个方程给出:$u w=v^{2}$和$u^{5}-$ $2 u^{2} v w+w^{3}=0 .$这个问题的重点是第二个方程,受限于二次曲线($u w=v^{2}$)它必须是一个完全平方形式.
+		
+		
+			解:
 		
 		\subsection{取$f=v^{2}-u w . g=u^{4}-v w . h=w^{2}-u^{3} v .$类似(3.11,b),分解$V(f, g, h) \subset A^{3}$.并考虑$V(f, g), V(f, h) \text {和} V(g, h)$有没有其他的成分.}
 		
@@ -2114,5 +2129,98 @@
 
 		标准开集$V_{f}$是很重要的, 因为它形成了V的Zariski拓扑的一组基:每一个开集$U\subset V$都是一些$V_{f}$的并集(因为每一个闭集的形式都是$V(I)=\cap_{f \in I} V(f)$).因此结果就证明了每一个开集$U\subset V$都是仿射簇开集$V_{f}$的并集.
 
+
+
+\chapter{射影几何和双有理几何}
+	本章节的第一部分旨在概括第三章和第四章关于射影簇的内容.剩下的部分主要关于双有理几何,其中用到了第四章最后部分的函数域$ k(V) $,这一部分在射影或者仿射情景下也是适合的.
+	
+	\setcounter{section}{-1}
+	\section{为什么射影簇是簇}
+		三次曲线
+		\begin{equation*}
+		C :\left( Y ^{2} Z = X ^{3}+ aXZ ^{2}+ bZ ^{3}\right) \subset \mathbb{P} ^{2}
+		\end{equation*}
+		是两个仿射曲线的联合:
+		\begin{equation*}
+		\left. C _{0}:\left( y ^{2}= x ^{3}+ ax + b \right) \subset \mathbb{A} ^{2} \quad  C \text{中取} (Z = 1) \text{截面}\right)
+		\end{equation*}
+		和
+		\begin{equation*}
+		\left. C _{1}:\left( z _{1}= x _{1}^{3}+ axz _{1} 2+ bz _{1}^{3}\right) \subset \mathbb{A} ^{2}   C \text{中取} (Y = 1) \text{截面}\right)
+		\end{equation*}
+		这种联合由同构
+		\begin{equation*}
+		C _{0} \backslash( y =0) \longrightarrow  C _{1} \backslash\left( z _{1}=0\right)
+		\end{equation*}
+		\begin{equation*}
+		( x , y ) \mapsto( x / y , 1 / y )
+		\end{equation*}
+		所胶合的.
 		
+		
+		作为一个较为简单的例子, 有着齐次坐标 $( X , Y )$的$\mathbb{P}^{1}$是两个分别具有坐标$ x_{0},y_{1} $的 $\mathbb{A}^{1}$的联合,这种联合由同构
+		\begin{equation*}
+		\mathbb{A}^{1} \backslash\left(x_{0}=0\right)\rightarrow \mathbb{A}^{1} \backslash\left(y_{1}=0\right)
+		\end{equation*}
+		\begin{equation*}
+		x _{0} \quad \mapsto \quad 1 / x _{0}
+		\end{equation*}
+		所胶合的.
+		
+		
+		\begin{figure}[h]
+			\centering
+			\includegraphics[width=5cm]{50.jpg}\\
+			\caption*{一个简单的图例,其中'$ \leftrightarrow $'代表同构}
+		\end{figure}
+	
+		
+		重点是,这种簇是严格大于仿射簇的. 事实上,根据之后会提到的自然态射的概念, 可以看出不存在非恒定态射$\mathbb{P} ^{1} \rightarrow \mathbb{A} ^{n}$或$C \rightarrow \mathbb{A}^{n}$ 对于任意的$n$ (可见\textit{习题5.1}和\textit{习题5.12},在(8.10)中也有讨论).
+		
+		
+		解决该问题的一种方法是采用适当的模来胶合,而将“抽象簇” $ V $的概念定义为仿射簇的并集$ V = \ cup V _ {i} $.类似于拓扑中流形的定义,这是一个有吸引力的想法,但是它带来了更多的技术难题。使用射影簇可以通过在现成的环绕空间$ P ^ {n}$中工作来避免这些问题,因此（除了对齐次多项式有所了解之外）,它们比仿射簇更难研究。实际上,尽管在初级阶段可能还不清楚,但是射影簇在相当可观的范围内为研究簇提供了自然的框架(在(8.11)中有从更高层次的简单论述)。
+		
+	\section{分次环和齐次理想}
+		\textbf{定义}\ 一个多项式$f \in k \left[ X _{0} \ldots X _{ n }\right]$是$ d $次齐次的,如果
+		\begin{equation*}
+			f =\sum a _{ i _{0}} \cdot i _{ n } X _{0}^{ i _{0}} \ldots X _{ n }^{ i _{ n }} \text{其中} a _{ i _{0}} \ldots i _{ n } \neq 0 \text{当且仅当} i _{0}+\ldots i _{ n }= d
+		\end{equation*}
+		对于任意$f \in k \left[ X _{0} \ldots X _{ n }\right]$存在一个唯一的表达$f = f _{0}+ f _{1}+\ldots f _{ N }$ 其中$f _{ d }$ 是具有$ d $次齐次的多项式,而$d =0,1, \ldots N$.
+		
+		
+		\textbf{命题}\ 如果$f$ 是$ d $次齐次的,则
+		\begin{equation*}
+		f \left(\lambda X _{0}, \ldots \lambda X _{ n }\right)=\lambda d f \left( X _{0}, \ldots X _{ n }\right) \quad \text { for all } \quad \lambda \in k
+		\end{equation*}
+		如果$k$是一个无限域,则反之亦成立.
+		
+		
+		\textbf{证明}\ 
+		
+		
+		\textbf{定义}\ 一个理想$I \subset k \left[ X _{0}, \ldots X _{ n }\right]$是齐次的,如果对于所有$f \in I$,在$ f $的齐次分解$f = f _{0}+ f _{1}+\ldots f _{ N }$中,对于所有$ i $有$f _{ i } \in I$.
+		
+		
+		这等价于$ I $是由(有限个)齐次多项式生成的.
+		
+		
+	\section{齐次的$ V-I $对应}
+		取$\mathbb{P} ^{n}_{k}$ 是一个在域$ k $上的$ n- $维射影空间,其中有齐次坐标$X _{0} . . X _{ n }$.则$f \in k \left[ X _{0}, \ldots X _{ n }\right]$不是一个在$\mathbb{P} ^{ n } k $上的函数:由定义,$\mathbb{P} ^{ n }_{ k }= k ^{ n +1} \backslash\{0\} / \sim$,其中$\sim$是一个等价关系,这个等价关系是$\left( X _{0}, \ldots X _{ n }\right) \sim\left(\lambda X _{0}, \ldots \lambda X _{ n }\right)$其中$\lambda \in k \backslash\{0\} $;而$ f $是一个在$k ^{n+1}$上的函数.但是,对于$P \in \mathbb{P}^{n} ,$如果$ f $是齐次的,那么条件$f ( P )=0$就是良定义的:假设$P =\left( X _{0}: . X _{ n }\right)$,则$\left(X_{0}, \ldots X_{n}\right)$是$ P $在 $k^{n+1} \backslash\{0\}$上的等价类的代表元.因为$f(\lambda \underline{X})=\lambda^{d} f(\underline{X}),$如果$f\left(X_{0}, \ldots X_{n}\right)=0$ 那么就有$f\left(\lambda X_{0}, \ldots \lambda X_{n}\right)=0,$因此条件$f ( P )=0$是独立于代表元的选取的.出于这种想法像以前一样定义对应$ V,I $
+		\begin{equation*}
+		\left\{\text {齐次理想 } J \subset k \left[ X _{0}, \dots X _{ n }\right]\right\} \quad \stackrel{ V , I }{\longleftrightarrow}\left\{\text { 子集} X \in \mathbb{P} _{ k }\right\}
+		\end{equation*}
+		其中
+		\begin{equation*}
+		V ( J )=\left\{ P \in \mathbb{P} ^{ n } k | f ( P )=0 \forall \text { 齐次} f \in J \right\}
+		\end{equation*}
+		\begin{equation*}
+		I ( X )=\left\{ f \in k \left[ X _{0}, \ldots X _{ n }\right] |  \text { 对于所有 } P \in X \text{有} f ( P )=0\right\}
+		\end{equation*}
+		作为一个练习,想一想为什么 $I ( X )$ 是一个齐次理想.
+		对应$ V $和$ I $满足仿射条件下的$ V,I $的一样形式的属性(例如$V \left( J _{1}+ J _{2}\right)=  V \left( J _{1}\right) \cap V \left( J _{2}\right) $依然成立). $V ( I )$的子集是$\mathbb{P}^{n} _{ k }$的代数子集,类似在仿射条件下的结论,如果在 $\mathbb{P} ^{n}_{k}$上定义代数子集是闭集就能构造一个Zariski拓扑.
+		
+		
+	\section{射影条件下的零点定理}
+		 As with the affine correspondences, it is purely formal that $I ( V ( J )) \supset$ rad $J$ for any ideal $J ,$ and that for an algebraic set,
+		(1) $= k \left[ X _{0} \ldots X _{ n }\right]$ (the whole ring) defines the empty set in $k ^{ n +1},$ hence also in $P ^{n}_{ k },$ which is as it should he; however, the ideal $\left(X_{0} \ldots X_{n}\right)$ defines $\{0\}$ in $k ^{n+1}$ which also corresponds to the empty set in $P ^{n}_{ k }$. The ideal $\left(X_{0}, \ldots X_{n}\right)$ is an
 \end{document}
