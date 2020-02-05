@@ -2221,6 +2221,98 @@
 		
 		
 	\section{射影条件下的零点定理}
-		 As with the affine correspondences, it is purely formal that $I ( V ( J )) \supset$ rad $J$ for any ideal $J ,$ and that for an algebraic set,
-		(1) $= k \left[ X _{0} \ldots X _{ n }\right]$ (the whole ring) defines the empty set in $k ^{ n +1},$ hence also in $P ^{n}_{ k },$ which is as it should he; however, the ideal $\left(X_{0} \ldots X_{n}\right)$ defines $\{0\}$ in $k ^{n+1}$ which also corresponds to the empty set in $P ^{n}_{ k }$. The ideal $\left(X_{0}, \ldots X_{n}\right)$ is an
+		在仿射意义的对应下，对于任意i理想$ J $的$I ( V ( J )) \supset rad J$和对于任意代数集$ X $的$ V(I(X))  = X$是完全形式化的.只有一点需要注意:平凡的理想$(1) = k \left[ X _{0} \ldots X _{ n }\right]$(即整个环)在对应下定义了$k ^{ n +1}$的空集,因此在$\mathbb{P} ^{n}_{ k }$中同样有类似的结论;但是,理想$\left(X_{0} \ldots X_{n}\right)$同样在 $k ^{n+1}$上同样对应到 $\{0\}$,即在$\mathbb{P} ^{n}_{ k }$上同样对应空集.理想$\left(X_{0} \ldots X_{n}\right)$是定理中几个论述的例外,传统上被称为'无关理想'.
+		
+		
+		\textbf{定理}\ 假设$ k $是一个代数闭域,则
+		\begin{enumerate}[(i)]
+			\item $ V ( J )=\varnothing  \Longleftrightarrow \operatorname{rad} J \supset\left( X _{0}, \ldots X _{ n }\right)$
+			\item 若$V ( J ) \neq \varnothing$则$ $I ( V ( J ))= rad J$ $
+		\end{enumerate}
+		
+		
+		\textbf{推论}\ $ I $和$ V $确定可逆的双射
+		\begin{equation*}
+		\left\{\begin{array}{l}
+		{\text {齐次根理想} J \subset k [x_{0}, \cdots x_{n} ]} \\
+		{\text { 其中} J \neq k [x_{0}, \ldots x_{n} ]} 
+		\end{array}\right\}
+		 \longleftrightarrow
+		 \left\{\begin{array}{c}
+		{\text { 代数子集 }} \\
+		{X \subset \mathbb{P} ^{n}}
+		\end{array}\right\}
+		\end{equation*}
+		
+		\centering $ \cup \qquad \qquad \qquad\qquad \qquad \qquad \qquad \cup $
+		\begin{equation*}
+		\qquad\quad
+		\left\{\begin{array}{l}
+		{\text {齐次素理想} J \subset k [x_{0}, \cdots x_{n} ]} \\
+		{\text { 其中} J \neq k [x_{0}, \ldots x_{n} ]} 
+		\end{array}\right\}
+		\longleftrightarrow
+		\left\{\begin{array}{c}
+		{\text { 不可约代数子集 }} \\
+		{X \subset \mathbb{P} ^{n}}
+		\end{array}\right\}
+		\end{equation*}
+		
+		
+		\textbf{证明}\ 取$\pi: A ^{n+1} \backslash\{0\} \rightarrow \mathbb{P}^{n}$是一个定义了$\mathbb{P} ^{n}$的映射.对于齐次理想 $J \subset k \left[ X _{0}, X _{ n }\right]$,记$V ^{ a }( J ) \subset \mathbb{A} ^{ n +1}$是由$ J $定义的仿射代数集.此时因为$ J $是齐次的,所以对$V ^{ a }( J )$有:
+		\begin{equation*}
+		\left(\alpha_{0}, \dots \alpha_{n}\right) \in v ^{ a }( J ) \Longleftrightarrow\left(\lambda \alpha_{0}, \dots \alpha_{n}\right) \in v ^{ a ( J )}
+		\end{equation*}
+		并且$V ( J )= V ^{ a ( J )} \backslash\{0\} / \sim \subset \mathbb{P} ^{ n } .$因此有
+		\begin{equation*}
+		V ( J )=\emptyset \Longleftrightarrow V ^{ a ( J )} \subset\{0\} \Longleftrightarrow \operatorname{rad} J \supset\left( X _{0} \ldots X _{ R }\right)
+		\end{equation*}
+		其中最后一部分用到了仿射条件下的零点定理.并且,如果$V ( J ) \neq \varnothing$则
+		\begin{equation*}
+		f \in I ( V ( J )) \Longleftrightarrow f \in I \left( V ^{ a }( J )\right) \Longleftrightarrow f \in rad J 
+		\end{equation*}
+		则证毕.
+		
+		
+		上面提到过的仿射子集$V ^{ a }( J )$ 被称作在射影代数子集$ V(J) $上的仿射锥.
+		
+	\section{$ V $上的有理函数}
+		取 $V \subset \mathbb{P} ^{ n }_{k}$是一个不可约代数集, 而$I ( V ) \subset k \left[ X _{0}, \ldots X _{ n }\right]$ 是它的理想; 则此时不能用直接的方法来利用多项式定义$ V $上的正规函数: 元素 $F \in k \left[ X _{0}, \ldots X _{ N }\right]$给出了在$ V $上仿射锥上的一个函数,但是除非$ F $是0次齐次的,否则这个函数在所有等价类上都是一个常数,即这个函数总是一个常数.
+		
+		
+		作为一个起点,可以先从有理函数开始:
+		
+		
+		\textbf{定义}\ 在$V$上的有理函数$f : V \rightarrow k$是一个由$f ( P )= g ( P ) / h ( P )$定义的部分函数,其中$ g , h \in k \left[ X _{0}, \ldots X _{ n }\right]$是具有相同次数的齐次多项式.
+		
+		注意,此时有$h ( P ) \neq 0,$ 则商$g ( P ) / h ( P )$是良定义的, 因此
+		\begin{equation*}
+		g (\lambda \underline{ X }) / h (\lambda \underline{ X })=\lambda d _{ g (\underline{ X }) / \lambda} d h (\underline{ X })= g (\underline{ X }) / h (\underline{ X }) \quad \text {其中} 0 \neq \lambda \in k
+		\end{equation*}
+		
+		
+		显然,当且仅当$h ^{\prime} g - g ^{\prime} h \in I ( V )$时,$g / h$和$g ^{\prime} / h ^{\prime}$定义同一个有理函数,因此所有有理函数组成的集是一个域
+		\begin{equation*}
+		k ( V )=\left\{ g / h | g , h \in k \left[ X _{0}, \ldots X _{ n }\right] \text { homog. of same degree, } h \notin I ( V )\right\} / \sim
+		\end{equation*}
+		其中$\sim$ 是等价关系
+		\begin{equation*}
+		g / h \sim g ^{\prime} / h ^{\prime} \Longleftrightarrow h ^{\prime} g - g ^{\prime} h \in I ( V )
+		\end{equation*}
+		$k ( V )$ 是 $V$上的有理函数域. 
+		
+		
+		接下来的定义就像在仿射情形. For $f \in k ( V )$ and $P \in V ,$ say that $f$ is regular at $P$ if there exists an expression $f = g / h ,$ with $g , h$ homogeneous polynomials of the same degree, such that $h ( P ) \neq 0 .$ Write
+		$\operatorname{dom} f =\{ P \in V | f \text { is regular at } P \}$
+		and
+		\begin{equation*}
+		O _{ V , P }=\{ f \in k ( V ) | f \text { is regular at } P \}
+		\end{equation*}
+		Clearly, dom $f \subset V$ is a dense Zariski open set in $V$ (the proof is as in $(4.8, I )$ and $O _{ V , P } \subset k ( V )$ is a subring.
+		(5.5) Affine covering of a projective variety. Let $V \subset P n$ be an irreducible algebraic set, and suppose for simplicity that $V \notin\left(X_{i}=0\right)$ for any i. We know that $P n$ is covered by $( n +1)$ affine pieces $A ^{ n }( i ),$ with affine (inhomogeneous) coordinates $X _{0}^{( i )}, \ldots X _{ i -1}^{( i )}, X _{ i +1}^{( i )}, \ldots X _{ n }^{( i )},$ where
+		\begin{equation*}
+		X _{ j }^{( i )}= X _{ j } / X _{ i } \quad \text { for } j \neq i
+		\end{equation*}
+		Write $V_{(i)}=V \cap A^{n}(i) .$ Then $V_{(i)} \subset A^{n}(i)$ is clearly an affine algebraic set, because
+		
 \end{document}
