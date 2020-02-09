@@ -1828,9 +1828,12 @@
 			
 		\subsection{若$J =\left( uw - v ^{2}, w ^{3}- u ^{5}\right),$证明$V ( J )$有两个不可约成分,并且其中之一是(3.11,b)中的曲线$ C $.}
 		证明同一个曲线$ C $可以由两个方程给出:$u w=v^{2}$和$u^{5}-$ $2 u^{2} v w+w^{3}=0 .$这个问题的重点是第二个方程,受限于二次曲线($u w=v^{2}$)它必须是一个完全平方形式.
+		 
 		
-		
-			解:
+%			解:对$ J $有
+%			\begin{equation*}
+%			w^{3}*(uw-v^{2}) + v^{2}*(w^{3}-u^{5}) = uw^{4} - u^{5}v^{2} = u(w^{2}-uv)(w^{2}+uv)
+%			\end{equation*}
 		
 		\subsection{取$f=v^{2}-u w . g=u^{4}-v w . h=w^{2}-u^{3} v .$类似(3.11,b),分解$V(f, g, h) \subset A^{3}$.并考虑$V(f, g), V(f, h) \text {和} V(g, h)$有没有其他的成分.}
 		
@@ -2135,7 +2138,7 @@
 	本章节的第一部分旨在概括第三章和第四章关于射影簇的内容.剩下的部分主要关于双有理几何,其中用到了第四章最后部分的函数域$ k(V) $,这一部分在射影或者仿射情景下也是适合的.
 	
 	\setcounter{section}{-1}
-	\section{为什么射影簇是簇}
+	\section{为什么讨论射影簇}
 		三次曲线
 		\begin{equation*}
 		C :\left( Y ^{2} Z = X ^{3}+ aXZ ^{2}+ bZ ^{3}\right) \subset \mathbb{P} ^{2}
@@ -2175,7 +2178,7 @@
 		\end{figure}
 	
 		
-		重点是,这种簇是严格大于仿射簇的. 事实上,根据之后会提到的自然态射的概念, 可以看出不存在非恒定态射$\mathbb{P} ^{1} \rightarrow \mathbb{A} ^{n}$或$C \rightarrow \mathbb{A}^{n}$ 对于任意的$n$ (可见\textit{习题5.1}和\textit{习题5.12},在(8.10)中也有讨论).
+		重点是,射影簇是严格大于仿射簇的. 事实上,根据之后会提到的自然态射的概念, 可以看出不存在非恒定态射$\mathbb{P} ^{1} \rightarrow \mathbb{A} ^{n}$或$C \rightarrow \mathbb{A}^{n}$ 对于任意的$n$ (可见\textit{习题5.1}和\textit{习题5.12},在(8.10)中也有讨论).
 		
 		
 		解决该问题的一种方法是采用适当的模来胶合,而将“抽象簇” $ V $的概念定义为仿射簇的并集$ V = \ cup V _ {i} $.类似于拓扑中流形的定义,这是一个有吸引力的想法,但是它带来了更多的技术难题。使用射影簇可以通过在现成的环绕空间$ P ^ {n}$中工作来避免这些问题,因此（除了对齐次多项式有所了解之外）,它们比仿射簇更难研究。实际上,尽管在初级阶段可能还不清楚,但是射影簇在相当可观的范围内为研究簇提供了自然的框架(在(8.11)中有从更高层次的简单论述)。
@@ -2190,7 +2193,7 @@
 		
 		\textbf{命题}\ 如果$f$ 是$ d $次齐次的,则
 		\begin{equation*}
-		f \left(\lambda X _{0}, \ldots \lambda X _{ n }\right)=\lambda d f \left( X _{0}, \ldots X _{ n }\right) \quad \text { for all } \quad \lambda \in k
+		f \left(\lambda X _{0}, \ldots \lambda X _{ n }\right)=\lambda d f \left( X _{0}, \ldots X _{ n }\right) \quad \text {对于任意} \quad \lambda \in k
 		\end{equation*}
 		如果$k$是一个无限域,则反之亦成立.
 		
@@ -2244,7 +2247,7 @@
 		\end{array}\right\}
 		\end{equation*}
 		
-		\centering $ \cup \qquad \qquad \qquad\qquad \qquad \qquad \qquad \cup $
+		$\qquad \quad \qquad\qquad \qquad \qquad \qquad \cup \qquad \qquad \qquad\qquad \qquad \qquad \qquad \cup $
 		\begin{equation*}
 		\qquad\quad
 		\left\{\begin{array}{l}
@@ -2261,11 +2264,11 @@
 		
 		\textbf{证明}\ 取$\pi: A ^{n+1} \backslash\{0\} \rightarrow \mathbb{P}^{n}$是一个定义了$\mathbb{P} ^{n}$的映射.对于齐次理想 $J \subset k \left[ X _{0}, X _{ n }\right]$,记$V ^{ a }( J ) \subset \mathbb{A} ^{ n +1}$是由$ J $定义的仿射代数集.此时因为$ J $是齐次的,所以对$V ^{ a }( J )$有:
 		\begin{equation*}
-		\left(\alpha_{0}, \dots \alpha_{n}\right) \in v ^{ a }( J ) \Longleftrightarrow\left(\lambda \alpha_{0}, \dots \alpha_{n}\right) \in v ^{ a ( J )}
+		\left(\alpha_{0}, \dots \alpha_{n}\right) \in V ^{ a }( J ) \Longleftrightarrow\left(\lambda \alpha_{0}, \dots \alpha_{n}\right) \in V ^{ a ( J )}
 		\end{equation*}
 		并且$V ( J )= V ^{ a ( J )} \backslash\{0\} / \sim \subset \mathbb{P} ^{ n } .$因此有
 		\begin{equation*}
-		V ( J )=\emptyset \Longleftrightarrow V ^{ a ( J )} \subset\{0\} \Longleftrightarrow \operatorname{rad} J \supset\left( X _{0} \ldots X _{ R }\right)
+		V ( J )=\varnothing \Longleftrightarrow V ^{ a }( J ) \subset\{0\} \Longleftrightarrow \operatorname{rad} J \supset\left( X _{0} \ldots X _{ n }\right)
 		\end{equation*}
 		其中最后一部分用到了仿射条件下的零点定理.并且,如果$V ( J ) \neq \varnothing$则
 		\begin{equation*}
@@ -2275,6 +2278,7 @@
 		
 		
 		上面提到过的仿射子集$V ^{ a }( J )$ 被称作在射影代数子集$ V(J) $上的仿射锥.
+		
 		
 	\section{$ V $上的有理函数}
 		取 $V \subset \mathbb{P} ^{ n }_{k}$是一个不可约代数集, 而$I ( V ) \subset k \left[ X _{0}, \ldots X _{ n }\right]$ 是它的理想; 则此时不能用直接的方法来利用多项式定义$ V $上的正规函数: 元素 $F \in k \left[ X _{0}, \ldots X _{ N }\right]$给出了在$ V $上仿射锥上的一个函数,但是除非$ F $是0次齐次的,否则这个函数在所有等价类上都是一个常数,即这个函数总是一个常数.
@@ -2287,13 +2291,13 @@
 		
 		注意,此时有$h ( P ) \neq 0,$ 则商$g ( P ) / h ( P )$是良定义的, 因此
 		\begin{equation*}
-		g (\lambda \underline{ X }) / h (\lambda \underline{ X })=\lambda d _{ g (\underline{ X }) / \lambda} d h (\underline{ X })= g (\underline{ X }) / h (\underline{ X }) \quad \text {其中} 0 \neq \lambda \in k
+		g (\lambda \underline{ X }) / h (\lambda \underline{ X })=\lambda d _{ g (\underline{ X }) }/ \lambda d _{ h (\underline{ X })}= g (\underline{ X }) / h (\underline{ X }) \quad \text {其中} 0 \neq \lambda \in k
 		\end{equation*}
 		
 		
 		显然,当且仅当$h ^{\prime} g - g ^{\prime} h \in I ( V )$时,$g / h$和$g ^{\prime} / h ^{\prime}$定义同一个有理函数,因此所有有理函数组成的集是一个域
 		\begin{equation*}
-		k ( V )=\left\{ g / h | g , h \in k \left[ X _{0}, \ldots X _{ n }\right] \text { homog. of same degree, } h \notin I ( V )\right\} / \sim
+		k ( V )=\left\{ g / h | \text {齐次且次数相同的} g , h \in k \left[ X _{0}, \ldots X _{ n }\right], h \notin I ( V )\right\} / \sim
 		\end{equation*}
 		其中$\sim$ 是等价关系
 		\begin{equation*}
@@ -2302,17 +2306,68 @@
 		$k ( V )$ 是 $V$上的有理函数域. 
 		
 		
-		接下来的定义就像在仿射情形. For $f \in k ( V )$ and $P \in V ,$ say that $f$ is regular at $P$ if there exists an expression $f = g / h ,$ with $g , h$ homogeneous polynomials of the same degree, such that $h ( P ) \neq 0 .$ Write
-		$\operatorname{dom} f =\{ P \in V | f \text { is regular at } P \}$
-		and
+		接下来的定义就像在仿射情形. 对于$f \in k ( V )$ 和 $P \in V ,$ 称$f$在$P$上是正规的，如果存在表达式$f = g / h ,$ 其中$g , h$是相同次数的齐次多项式,并且使得 $h ( P ) \neq 0 .$ 记
 		\begin{equation*}
-		O _{ V , P }=\{ f \in k ( V ) | f \text { is regular at } P \}
+		\operatorname{dom} f =\{ P \in V | f \text {在} P \text{上是正规的}\}
 		\end{equation*}
-		Clearly, dom $f \subset V$ is a dense Zariski open set in $V$ (the proof is as in $(4.8, I )$ and $O _{ V , P } \subset k ( V )$ is a subring.
-		(5.5) Affine covering of a projective variety. Let $V \subset P n$ be an irreducible algebraic set, and suppose for simplicity that $V \notin\left(X_{i}=0\right)$ for any i. We know that $P n$ is covered by $( n +1)$ affine pieces $A ^{ n }( i ),$ with affine (inhomogeneous) coordinates $X _{0}^{( i )}, \ldots X _{ i -1}^{( i )}, X _{ i +1}^{( i )}, \ldots X _{ n }^{( i )},$ where
+		和
 		\begin{equation*}
-		X _{ j }^{( i )}= X _{ j } / X _{ i } \quad \text { for } j \neq i
+		O _{ V , P }=\{ f \in k ( V ) | f \text {在} P \text{上是正规的}\}
 		\end{equation*}
-		Write $V_{(i)}=V \cap A^{n}(i) .$ Then $V_{(i)} \subset A^{n}(i)$ is clearly an affine algebraic set, because
+		显然, $dom f \subset V$在 $V$上是一个Zariski紧开集 (证明同$(4.8, I )$) 并且$O _{ V , P } \subset k ( V )$ 是一个子环.
+		
+	\section{射影簇的仿射覆盖}
+	
+		取$V \subset \mathbb{P}^{n}$ 是一个不可约代数集,为简单起见,假设对任意$ i $存在$V \notin\left(X_{i}=0\right)$.已知,$\mathbb{P}^{n}$可以由$( n +1)$ 个仿射片$A ^{ n }_{( i )}$覆盖,其中有仿射(非齐次)坐标$X _{0}^{( i )}, \ldots X _{ i -1}^{( i )}, X _{ i +1}^{( i )}, \ldots X _{ n }^{( i )},$ 其中
+		\begin{equation*}
+		X _{ j }^{( i )}= X _{ j } / X _{ i } \quad \text {其中} j \neq i
+		\end{equation*}
+		记$V_{(i)}=V \cap \mathbb{A}^{n}_{(i)} .$则 $V_{(i)} \subset \mathbb{A}^{n}_{(i)}$ 显然是一个仿射代数集,因为
+		\begin{equation*}
+		\begin{aligned}
+		V _{(0)} & \ni P =\left(1, x _{1}^{(0)}, \ldots \times n ^{(0)}\right) \\
+		& \Longleftrightarrow f \left(1, x _{1}^{(0)}, \ldots x _{ n }^{(0)}\right)=0  \text {对于所有齐次} f \in I ( V )
+		\end{aligned}
+		\end{equation*}
+		这是在$ P $的坐标 $\left(x_{1}^{(0)}, \ldots x_{n}^{(0)}\right)$ 上的一组多项式关系. 为了说清楚这些事,不妨取$i =0$,而结论在其他的仿射片$V _{( i )} $中依然成立. 其中$V _{( i )}$被称为$V$的基准仿射片.
+		
+		
+		\textbf{命题}. (i) 对应 $V  \rightarrow V _{(0)}= V \cap \mathbb{A} ^{ n }_{(0)}$给出了一个双射
+		\begin{equation*}
+		\left\{
+		\text {不可约代数子集} V\subset \mathbb{P}^{n} | V \not\subset(X_{0} = 0)
+		\right\}
+		\longleftrightarrow
+		\left\{
+		\text {不可约代数子集} V_{0}\subset \mathbb{A}^{n}_{0}
+		\right\}
+		\end{equation*}
+		逆对应由Zaraski拓扑的闭包给出.
+		
+		
+		(ii)记$I ^{ h }( V ) \subset k \left[ X _{0}, \ldots X _{ n }\right]$ 是$V \subset P ^{ n }$的齐次理想且$I ^{ a }\left( V _{(0)}\right) \subset k \left[ X _{1}, \ldots X _{ n }\right]$是$V _{(0)} \subset A ^{ n }(0) $如同第三章那样的通常非齐次理想,则 对$I ^{ h }( V )$和$I ^{ a }\left( V _{(0)}\right)$有:
+		\begin{equation*}
+		I ^{ a }=\left\{ f \left(1, X _{1}, \ldots X _{ n }\right) | f \in I ^{ h }( V )\right\}
+		\end{equation*}
+		且
+		\begin{equation*}
+		\left. I ^{ h }( V )_{ d }=\left\{ x _{0} d _{ f \left( X _{1} / X _{0}, \dots\right.} X _{ n } / X _{0}\right) | f \in I ^{ a ( V (0))}, \text {其中 deg } f \leq d \right\}
+		\end{equation*}
+		其中$I ^{ h }( V )_{ d }$ 的下标代表这是具有次数$ d $的片. 
+		
+		
+		(iii) $k ( V ) \cong k ( V (0)),$ 并且对于$f \in k ( V ),$$f$的环作为在$V _{(0)}$上的函数是 $V _{(0)} \cap dom f$
+		
+		
+		
+		\textbf{证明} (i)和(ii)易证. (iii)如果 $g, h \in k [ X_{0}, . . X_{n}]$ 是$ d $次齐次的, 且$h \notin I ( V ),$ 则$g / h \in k ( V )$在 $V _{(0)}$上的限制是函数
+		\begin{equation*}
+		g \left(1, X _{1} / X _{0}, \ldots X _{ n } / X _{0}\right) / h \left(1, X _{1} / X _{0} \ldots X _{ n } / X _{0}\right)
+		\end{equation*}
+		这定义了一个映射$k ( V ) \rightarrow k \left( V _{(0)}\right),$ 而它的逆是显然的.
+		
+		
+	\section{有理映射和态射}
+		在射影(或仿射)簇之间的有理映射可以用$ k(V) $来定义:如果$ V \subset \mathbb{P}^{n} $是一个不可约代数集,
 		
 \end{document}

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.3.31)  4 FEB 2020 17:38
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.3.31)  9 FEB 2020 17:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1897,7 +1897,7 @@ n/10.53937 绝 大 多 数 的 簇 都 是 由 很 多 等 式 来 定 义 的\T
  []
 
 [36] [37] [38] [39] [40]
-Overfull \hbox (2.907pt too wide) in paragraph at lines 1838--1838
+Overfull \hbox (2.907pt too wide) in paragraph at lines 1841--1841
 |\TU/SimSun(0)/m/n/10.53937 习 题 \TU/lmr/m/n/10.53937 3.4 \TU/SimSun(0)/m/n/10.5
 3937 举 例 说 明 \TU/lmr/m/n/10.53937 (3.13) \TU/SimSun(0)/m/n/10.53937 关 于 诺 特 正 规
  化 引 理 的 证 明 在 有 限 域 $\OML/cmm/m/it/10.53937 k$ \TU/SimSun(0)/m/n/10.53937 上 不 
@@ -1907,7 +1907,7 @@ Overfull \hbox (2.907pt too wide) in paragraph at lines 1838--1838
  []
 
 
-Underfull \vbox (badness 2111) has occurred while \output is active []
+Underfull \vbox (badness 4686) has occurred while \output is active []
 
  [41]
 [42]
@@ -1915,7 +1915,7 @@ Chapter 4.
 [43
 
 ]
-Overfull \hbox (27.94774pt too wide) in paragraph at lines 1892--1893
+Overfull \hbox (27.94774pt too wide) in paragraph at lines 1895--1896
 []\TU/SimSun(0)/bx/n/10.53937 定 义 \TU/SimSun(0)/m/n/10.53937 称 一 个 映 射 \TU/lmr/
 m/n/10.53937 f:V $\OMS/cmsy/m/n/10.53937 )$\TU/lmr/m/n/10.53937 W \TU/SimSun(0)
 /m/n/10.53937 是 多 项 式 映 射\TU/lmr/m/n/10.53937 , \TU/SimSun(0)/m/n/10.53937 如 果 
@@ -1939,7 +1939,7 @@ File: 50.jpg Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[51] [52] [53] [54] (./miles3.aux) ) 
+[51] [52] [53] [54] [55] (./miles3.aux) ) 
 Here is how much of TeX's memory you used:
  27353 strings out of 494895
  602009 string characters out of 6175937
@@ -1949,4 +1949,4 @@ Here is how much of TeX's memory you used:
  36 hyphenation exceptions out of 8191
  55i,18n,68p,10438b,347s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on miles3.pdf (54 pages).
+Output written on miles3.pdf (55 pages).
