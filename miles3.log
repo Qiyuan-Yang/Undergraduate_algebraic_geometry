@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.3.31)  9 FEB 2020 17:25
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.3.31)  27 MAY 2020 22:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1538,25 +1538,25 @@ File: block.tss 2016/03/15
 ) (./miles3.aux)
 \openout1 = `miles3.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 19.
+LaTeX Info: Redefining \selectfont on input line 20.
 .................................................
 . fontspec info: "setup-math"
 . 
@@ -1564,56 +1564,56 @@ LaTeX Info: Redefining \selectfont on input line 19.
 .................................................
 \symlegacymaths=\mathgroup9
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 19.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 19.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 19.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 19.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 19.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 19.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 19.
-LaTeX Font Info:    Redeclaring math accent \check on input line 19.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 19.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 19.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 19.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 19.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 19.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 19.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 19.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 19.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 19.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 19.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 19.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 19.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 19.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 19.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 19.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 19.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 20.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 20.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 20.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 20.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 20.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 20.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 20.
+LaTeX Font Info:    Redeclaring math accent \check on input line 20.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 20.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 20.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 20.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 20.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 20.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 20.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 20.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 20.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 20.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 20.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 20.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 20.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 20.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 20.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 20.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 20.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 19.
+(Font)              `operators' in the math version `normal' on input line 20.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 19.
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 20.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 19.
+(Font)              `operators' in the math version `bold' on input line 20.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 19.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 20.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 19.
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 20.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 19.
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 20.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/bx/n on input line 19.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/bx/n on input line 20.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 19.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 20.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 19.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 20.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/bx/n on input line 19.
+(Font)                  TU/lmr/m/n --> TU/lmr/bx/n on input line 20.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmr/bx/it on input line 19.
+(Font)                  OT1/cmr/bx/it --> TU/lmr/bx/it on input line 20.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 19.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 20.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 19.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 20.
  ABD: EveryShipout initializing macros
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
@@ -1652,11 +1652,11 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 21.
+LaTeX Font Info:    Try loading font information for U+msa on input line 22.
 (c:/Apps/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 21.
+LaTeX Font Info:    Try loading font information for U+msb on input line 22.
 
 (c:/Apps/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1669,15 +1669,25 @@ LaTeX Warning: No \author given.
 
 ] [2
 
+] (./miles3.toc [3]
+LaTeX Font Info:    Font shape `TU/SimSun(0)/m/sl' in size <10.53937> not avail
+able
+(Font)              Font shape `TU/SimSun(0)/m/it' tried instead on input line 
+99.
+ [4])
+\tf@toc=\write4
+\openout4 = `miles3.toc'.
+
+ [5] [6
+
 ]
 Chapter 1.
 File: 9.jpg Graphic file (type bmp)
 <9.jpg>
-Missing character: There is no ： in font [lmroman10-regular]:mapping=tex-text;!
 Missing character: There is no 其 in font [lmroman10-regular]:mapping=tex-text;!
 Missing character: There is no 中 in font [lmroman10-regular]:mapping=tex-text;!
 
-Overfull \hbox (8.13719pt too wide) in paragraph at lines 47--48
+Overfull \hbox (8.13719pt too wide) in paragraph at lines 51--52
 []\TU/lmr/m/n/10.53937 (\TU/SimSun(0)/m/n/10.53937 若 $\OML/cmm/m/it/10.53937 `;
  m$ \TU/SimSun(0)/m/n/10.53937 都 是 奇 数\TU/lmr/m/n/10.53937 , \TU/SimSun(0)/m/n/
 10.53937 得 到 的 $\OML/cmm/m/it/10.53937 X; Y; Z$ \TU/SimSun(0)/m/n/10.53937 值 也 
@@ -1688,16 +1698,11 @@ U/lmr/m/n/10.53937 , \TU/SimSun(0)/m/n/10.53937 所 以 如 果 $\OT1/cmr/m/n/10
 
 File: 10.jpg Graphic file (type bmp)
 <10.jpg>
-[3]
-LaTeX Font Info:    Font shape `TU/SimSun(0)/m/sl' in size <10.53937> not avail
-able
-(Font)              Font shape `TU/SimSun(0)/m/it' tried instead on input line 
-109.
- [4]
+[7] [8]
 File: 12.jpg Graphic file (type bmp)
 <12.jpg>
- [5] [6]
-Overfull \hbox (4.31836pt too wide) in paragraph at lines 212--213
+ [9] [10]
+Overfull \hbox (4.31836pt too wide) in paragraph at lines 216--217
 []\TU/SimSun(0)/bx/n/10.53937 命 题 \TU/lmr/bx/n/10.53937 (A) \TU/SimSun(0)/m/n/1
 0.53937 有 天 然 的 双 射 $\OMS/cmsy/m/n/10.53937 f[]g \OT1/cmr/m/n/10.53937 = \OMS/c
 msy/m/n/10.53937 f[]\OML/cmm/m/it/10.53937 k[] \OMS/cmsy/m/n/10.53937 ! \OML/cm
@@ -1705,24 +1710,24 @@ m/m/it/10.53937 k\OMS/cmsy/m/n/10.53937 g  []! f\OML/cmm/m/it/10.53937 k[][]\OM
 S/cmsy/m/n/10.53937 g$\TU/lmr/m/n/10.53937 ,
  []
 
-[7] [8]
+[11] [12]
 File: 1811.jpg Graphic file (type bmp)
 <1811.jpg>
 File: 1822.jpg Graphic file (type bmp)
 <1822.jpg>
- [9]
+ [13]
 File: 19.jpg Graphic file (type bmp)
 <19.jpg>
 File: 20.jpg Graphic file (type bmp)
 <20.jpg>
 
-Underfull \vbox (badness 2941) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [10]
+ [14]
 File: 21.jpg Graphic file (type bmp)
 <21.jpg>
 
-[11]
+[15]
 File: 22.jpg Graphic file (type bmp)
 <22.jpg>
 File: 23.jpg Graphic file (type bmp)
@@ -1730,31 +1735,31 @@ File: 23.jpg Graphic file (type bmp)
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [12]
-[13] [14]
+ [16]
+[17] [18]
 Underfull \vbox (badness 1038) has occurred while \output is active []
 
- [15]
-Overfull \hbox (90.0514pt too wide) in paragraph at lines 662--663
-[]\TU/SimSun(0)/m/n/10.53937 解 答：|  设 $\OML/cmm/m/it/10.53937 P[]; [] P[]$ \TU/
-SimSun(0)/m/n/10.53937 的 坐 标 为 $\OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 x
-[]; y[]; \OT1/cmr/m/n/10.53937 1)\OML/cmm/m/it/10.53937 ; i \OT1/cmr/m/n/10.539
-37 = 1\OML/cmm/m/it/10.53937 ; [] \OT1/cmr/m/n/10.53937 4$\TU/lmr/m/n/10.53937 
-. \TU/SimSun(0)/m/n/10.53937 考 虑 $\OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937
- x[]; y[]; \OT1/cmr/m/n/10.53937 1)\OML/cmm/m/it/10.53937 ; i \OT1/cmr/m/n/10.5
-3937 = 1\OML/cmm/m/it/10.53937 ; [] \OT1/cmr/m/n/10.53937 4$ \TU/SimSun(0)/m/n/
-10.53937 到 $\OT1/cmr/m/n/10.53937 (1\OML/cmm/m/it/10.53937 ; \OT1/cmr/m/n/10.53
-937 0\OML/cmm/m/it/10.53937 ; \OT1/cmr/m/n/10.53937 0)\OML/cmm/m/it/10.53937 ; 
-\OT1/cmr/m/n/10.53937 (0\OML/cmm/m/it/10.53937 ; \OT1/cmr/m/n/10.53937 1\OML/cm
-m/m/it/10.53937 ; \OT1/cmr/m/n/10.53937 0)\OML/cmm/m/it/10.53937 ; \OT1/cmr/m/n
-/10.53937 (0\OML/cmm/m/it/10.53937 ; \OT1/cmr/m/n/10.53937 0\OML/cmm/m/it/10.53
-937 ; \OT1/cmr/m/n/10.53937 1)\OML/cmm/m/it/10.53937 ; \OT1/cmr/m/n/10.53937 (1
-\OML/cmm/m/it/10.53937 ; \OT1/cmr/m/n/10.53937 1\OML/cmm/m/it/10.53937 ; \OT1/c
-mr/m/n/10.53937 1)$
+ [19]
+Overfull \hbox (91.163pt too wide) in paragraph at lines 663--664
+[]\TU/SimSun(0)/m/n/10.53937 解 答\TU/lmr/m/n/10.53937 : \TU/SimSun(0)/m/n/10.539
+37 设 $\OML/cmm/m/it/10.53937 P[]; [] P[]$ \TU/SimSun(0)/m/n/10.53937 的 坐 标 为 $\
+OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 x[]; y[]; \OT1/cmr/m/n/10.53937 1)
+\OML/cmm/m/it/10.53937 ; i \OT1/cmr/m/n/10.53937 = 1\OML/cmm/m/it/10.53937 ; []
+ \OT1/cmr/m/n/10.53937 4$\TU/lmr/m/n/10.53937 . \TU/SimSun(0)/m/n/10.53937 考 虑 
+$\OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 x[]; y[]; \OT1/cmr/m/n/10.53937 
+1)\OML/cmm/m/it/10.53937 ; i \OT1/cmr/m/n/10.53937 = 1\OML/cmm/m/it/10.53937 ; 
+[] \OT1/cmr/m/n/10.53937 4$ \TU/SimSun(0)/m/n/10.53937 到 $\OT1/cmr/m/n/10.53937
+ (1\OML/cmm/m/it/10.53937 ; \OT1/cmr/m/n/10.53937 0\OML/cmm/m/it/10.53937 ; \OT
+1/cmr/m/n/10.53937 0)\OML/cmm/m/it/10.53937 ; \OT1/cmr/m/n/10.53937 (0\OML/cmm/
+m/it/10.53937 ; \OT1/cmr/m/n/10.53937 1\OML/cmm/m/it/10.53937 ; \OT1/cmr/m/n/10
+.53937 0)\OML/cmm/m/it/10.53937 ; \OT1/cmr/m/n/10.53937 (0\OML/cmm/m/it/10.5393
+7 ; \OT1/cmr/m/n/10.53937 0\OML/cmm/m/it/10.53937 ; \OT1/cmr/m/n/10.53937 1)\OM
+L/cmm/m/it/10.53937 ; \OT1/cmr/m/n/10.53937 (1\OML/cmm/m/it/10.53937 ; \OT1/cmr
+/m/n/10.53937 1\OML/cmm/m/it/10.53937 ; \OT1/cmr/m/n/10.53937 1)$
  []
 
-[16] [17]
-Overfull \hbox (10.88002pt too wide) in paragraph at lines 790--791
+[20] [21]
+Overfull \hbox (10.88002pt too wide) in paragraph at lines 791--792
 []\TU/SimSun(0)/m/n/10.53937 所 以 \TU/lmr/m/n/10.53937 5 \TU/SimSun(0)/m/n/10.53
 937 个 向 量 $\OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 a[]; a[]; a[]; \OT1/cm
 r/m/n/10.53937 0\OML/cmm/m/it/10.53937 ; \OT1/cmr/m/n/10.53937 0)\OML/cmm/m/it/
@@ -1767,49 +1772,47 @@ it/10.53937 b[]; b[]; b[]; b[]; \OT1/cmr/m/n/10.53937 0)\OML/cmm/m/it/10.53937
 /n/10.53937 )$
  []
 
-[18] [19] [20
+[22] [23] [24
 
 ]
 Chapter 2.
 File: 27.jpg Graphic file (type bmp)
 <27.jpg>
-[21]
-Missing character: There is no 和 in font [lmroman10-regular]:mapping=tex-text;!
- [22]
-Missing character: There is no 显 in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 然 in font [lmroman10-regular]:mapping=tex-text;!
- [23]
+[25] [26] [27]
 File: 32.jpg Graphic file (type bmp)
 <32.jpg>
- [24]
-Overfull \hbox (1.16098pt too wide) in paragraph at lines 1010--1015
+
+Overfull \hbox (36.5109pt too wide) in paragraph at lines 976--977
+[]\TU/SimSun(0)/m/n/10.53937 同 样\TU/lmr/m/n/10.53937 , \TU/SimSun(0)/m/n/10.539
+37 由 于 $\OML/cmm/m/it/10.53937 P[]:::P[]$ \TU/SimSun(0)/m/n/10.53937 中 不 存 在 四 
+点 共 线 的\TU/lmr/m/n/10.53937 , \TU/SimSun(0)/m/n/10.53937 由 \TU/lmr/m/n/10.53937
+ 1.11 \TU/SimSun(0)/m/n/10.53937 的 推 论\TU/lmr/m/n/10.53937 ,$\OML/cmm/m/it/10.5
+3937 dimS[]\OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 P[]:::P[]\OT1/cmr/m/n/
+10.53937 ) = 1$\TU/lmr/m/n/10.53937 , \TU/SimSun(0)/m/n/10.53937 并 且 $\OML/cmm/
+m/it/10.53937 dimS[]\OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 P[]:::P[]\OT1
+/cmr/m/n/10.53937 ) =
+ []
+
+[28]
+Overfull \hbox (1.16098pt too wide) in paragraph at lines 1011--1016
 []\TU/SimSun(0)/bx/n/10.53937 构 造 [] 
  []
 
 File: 34.jpg Graphic file (type bmp)
 <34.jpg>
-[25]
-Overfull \hbox (74.92213pt too wide) in paragraph at lines 1065--1066
+[29]
+Overfull \hbox (1.51132pt too wide) in paragraph at lines 1070--1071
 []\TU/lmr/m/n/10.53937 (ii) \TU/SimSun(0)/m/n/10.53937 对 于 所 有 $\OML/cmm/m/it/1
 0.53937 A; B; C \OMS/cmsy/m/n/10.53937 2 \OML/cmm/m/it/10.53937 C$ \TU/SimSun(0
 )/m/n/10.53937 存 在 任 意 近 的 三 点 $\OML/cmm/m/it/10.53937 A[]; B[]; C[] \OMS/cmsy/
 m/n/10.53937 2 \OML/cmm/m/it/10.53937 C$ \TU/SimSun(0)/m/n/10.53937 使 得 构 造 出 来
- 的 九 点 $\OML/cmm/m/it/10.53937 A[]; B[]; C[]; O; R; []; Q; []; S$
+ 的 九 点 $\OML/cmm/m/it/10.53937 A[]; B[]; C[];$
  []
 
-
-Overfull \hbox (5.50836pt too wide) in paragraph at lines 1073--1074
-[]\TU/lmr/m/n/10.53937 (\TU/SimSun(0)/m/n/10.53937 神 秘 六 边 形\TU/lmr/m/n/10.5393
-7 ) \TU/SimSun(0)/m/n/10.53937 图 中 是 一 个 平 面 $\U/msb/m/n/10.53937 P[]$ \TU/SimS
-un(0)/m/n/10.53937 中 六 边 形 $\OML/cmm/m/it/10.53937 ABCDEF$\TU/lmr/m/n/10.53937 
-, \TU/SimSun(0)/m/n/10.53937 它 的 对 边 延 伸 直 至 相 交 到 点 $\OML/cmm/m/it/10.53937 P;
- Q; R$\TU/lmr/m/n/10.53937 .
- []
-
-[26]
+[30]
 File: 37.jpg Graphic file (type bmp)
 <37.jpg>
- [27]
+ [31]
 File: 38.jpg Graphic file (type bmp)
 <38.jpg>
 File: 39.jpg Graphic file (type bmp)
@@ -1818,68 +1821,12 @@ File: 39.jpg Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[28] [29] [30]
-Chapter 3.
-Missing character: There is no 是 in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 有 in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 限 in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 生 in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 成 in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 理 in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 想 in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 且 in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 或 in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 是 in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 中 in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 元 in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 素 in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 的 in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 乘 in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 积 in font [lmroman10-regular]:mapping=tex-text;!
-[31
+[32] [33] [34
 
 ]
-Missing character: There is no 这 in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 里 in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 若 in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 否 in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 则 in font [lmroman10-regular]:mapping=tex-text;!
-
-Overfull \hbox (16.96043pt too wide) in paragraph at lines 1325--1326
-[]\TU/SimSun(0)/m/n/10.53937 生 成 \TU/lmr/m/n/10.53937 J: \TU/SimSun(0)/m/n/10.5
-3937 对 给 定 的 $\OML/cmm/m/it/10.53937 g \OMS/cmsy/m/n/10.53937 2 \OML/cmm/m/it/1
-0.53937 J$\TU/lmr/m/n/10.53937 , \TU/SimSun(0)/m/n/10.53937 假 定 \TU/lmr/m/n/10.
-53937 deg g = m. \TU/SimSun(0)/m/n/10.53937 那 么 \TU/lmr/m/n/10.53937 g \TU/SimS
-un(0)/m/n/10.53937 的 首 项 为 $\OML/cmm/m/it/10.53937 bX[]$\TU/lmr/m/n/10.53937 ,$
-\OML/cmm/m/it/10.53937 b \OMS/cmsy/m/n/10.53937 2 \OML/cmm/m/it/10.53937 J[]$\T
-U/lmr/m/n/10.53937 . \TU/SimSun(0)/m/n/10.53937 有 $\OML/cmm/m/it/10.53937 b \OT
-1/cmr/m/n/10.53937 = [] \OML/cmm/m/it/10.53937 c[]a[]\OT1/cmr/m/n/10.53937 ([][
-]\OML/cmm/m/it/10.53937 m[] \OT1/cmr/m/n/10.53937 =
- []
-
-Missing character: There is no 理 in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 想 in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 子 in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 集 in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 对 in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 任 in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 意 in font [lmroman10-regular]:mapping=tex-text;!
-[32]
-Missing character: There is no 理 in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 想 in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 子 in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 集 in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 任 in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 意 in font [lmroman10-regular]:mapping=tex-text;!
- [33]
-Missing character: There is no 当 in font [lmroman10-regular]:mapping=tex-text;!
-
-Overfull \hbox (13.46931pt too wide) in paragraph at lines 1492--1493
- \TU/SimSun(0)/m/n/10.53937 元\TU/lmr/m/n/10.53937 .$[]$ 
- []
-
-[34] [35]
-Overfull \hbox (1.58855pt too wide) in paragraph at lines 1581--1583
+Chapter 3.
+[35] [36] [37] [38] [39]
+Overfull \hbox (1.58855pt too wide) in paragraph at lines 1527--1529
 \TU/SimSun(0)/m/n/10.53937 等 式 两 边 都 是 $\OML/cmm/m/it/10.53937 k []$ \TU/SimSun
 (0)/m/n/10.53937 中 的 元 素\TU/lmr/m/n/10.53937 . \TU/SimSun(0)/m/n/10.53937 因 此 自
  然 的 同 态 $\OML/cmm/m/it/10.53937 k [] ,[]\OMS/cmsy/m/n/10.53937 ! \OML/cmm/m/it
@@ -1887,66 +1834,187 @@ Overfull \hbox (1.58855pt too wide) in paragraph at lines 1581--1583
 10.53937 ^^@
  []
 
-
-Overfull \hbox (2.44606pt too wide) in paragraph at lines 1599--1600
-[]\TU/SimSun(0)/m/n/10.53937 除 了 超 平 面 外\TU/lmr/m/n/10.53937 , \TU/SimSun(0)/m/
+[40]
+Overfull \hbox (2.44606pt too wide) in paragraph at lines 1545--1546
+[]\TU/SimSun(0)/m/n/10.53937 除 了 超 曲 面 外\TU/lmr/m/n/10.53937 , \TU/SimSun(0)/m/
 n/10.53937 绝 大 多 数 的 簇 都 是 由 很 多 等 式 来 定 义 的\TU/lmr/m/n/10.53937 . \TU/SimSun(0
 )/m/n/10.53937 反 直 觉 地\TU/lmr/m/n/10.53937 , \TU/SimSun(0)/m/n/10.53937 这 通 常 都
  是 因 为 理 想 $\OML/cmm/m/it/10.53937 I\OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.539
 37 X\OT1/cmr/m/n/10.53937 )$
  []
 
-[36] [37] [38] [39] [40]
-Overfull \hbox (2.907pt too wide) in paragraph at lines 1841--1841
-|\TU/SimSun(0)/m/n/10.53937 习 题 \TU/lmr/m/n/10.53937 3.4 \TU/SimSun(0)/m/n/10.5
-3937 举 例 说 明 \TU/lmr/m/n/10.53937 (3.13) \TU/SimSun(0)/m/n/10.53937 关 于 诺 特 正 规
- 化 引 理 的 证 明 在 有 限 域 $\OML/cmm/m/it/10.53937 k$ \TU/SimSun(0)/m/n/10.53937 上 不 
-成 立\TU/lmr/m/n/10.53937 .(\TU/SimSun(0)/m/n/10.53937 提 示\TU/lmr/m/n/10.53937 : 
-\TU/SimSun(0)/m/n/10.53937 对 $\OML/cmm/m/it/10.53937 F[]\OT1/cmr/m/n/10.53937 (
-\OML/cmm/m/it/10.53937 ^^K; \OT1/cmr/m/n/10.53937 1) =
+[41] [42] [43] [44]
+Underfull \vbox (badness 1845) has occurred while \output is active []
+
+ [45]
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ⑤ in font [lmroman10-regular]:mapping=tex-text;!
+
+[46] [47] [48]
+Overfull \hbox (5.4368pt too wide) in paragraph at lines 2019--2020
+[]\TU/SimSun(0)/m/n/10.53937 设 $\OML/cmm/m/it/10.53937 f[] \OT1/cmr/m/n/10.5393
+7 = []$\TU/lmr/m/n/10.53937 , $\OML/cmm/m/it/10.53937 g[] \OT1/cmr/m/n/10.53937
+ = []$\TU/lmr/m/n/10.53937 ,  \TU/SimSun(0)/m/n/10.53937 其 中 $\OML/cmm/m/it/10.
+53937 q; p; d[]; e[] \OMS/cmsy/m/n/10.53937 2 \OML/cmm/m/it/10.53937 k\OT1/cmr/
+m/n/10.53937 [\OML/cmm/m/it/10.53937 X\OT1/cmr/m/n/10.53937 ]\OML/cmm/m/it/10.5
+3937 ; r; w \OMS/cmsy/m/n/10.53937 ^^U
+ []
+
+[49]
+Overfull \hbox (2.9683pt too wide) in paragraph at lines 2099--2100
+[]\TU/lmr/m/n/10.53937 (b) \TU/SimSun(0)/m/n/10.53937 假 设 \TU/lmr/m/n/10.53937 
+k \TU/SimSun(0)/m/n/10.53937 是 代 数 闭 域\TU/lmr/m/n/10.53937 , f \TU/SimSun(0)/m/
+n/10.53937 满 足 \TU/lmr/m/n/10.53937 (a) \TU/SimSun(0)/m/n/10.53937 中 的 条 件\TU/l
+mr/m/n/10.53937 . \TU/SimSun(0)/m/n/10.53937 假 设 \TU/lmr/m/n/10.53937 f \TU/Sim
+Sun(0)/m/n/10.53937 有 $\OML/cmm/m/it/10.53937 X[]$ \TU/SimSun(0)/m/n/10.53937 的
+ \TU/lmr/m/n/10.53937 m \TU/SimSun(0)/m/n/10.53937 次 项\TU/lmr/m/n/10.53937 , \T
+U/SimSun(0)/m/n/10.53937 令 $\OML/cmm/m/it/10.53937 a[]\OT1/cmr/m/n/10.53937 (\O
+ML/cmm/m/it/10.53937 X[]; []  ; X[]\OT1/cmr/m/n/10.53937 )\OML/cmm/m/it/10.5393
+7 X[]$
+ []
+
+[50]
+Overfull \hbox (53.58124pt too wide) in paragraph at lines 2173--2175
+[]$\OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 X[]; []  ; X[]; t\OT1/cmr/m/n/
+10.53937 ) \OMS/cmsy/m/n/10.53937 2 \OML/cmm/m/it/10.53937 A[]$\TU/lmr/m/n/10.5
+3937 , \TU/SimSun(0)/m/n/10.53937 若 $[] \OML/cmm/m/it/10.53937 a[]\OT1/cmr/m/n/
+10.53937 (\OML/cmm/m/it/10.53937 X[]; []  ; X[]\OT1/cmr/m/n/10.53937 )\OML/cmm/
+m/it/10.53937 t[] \OMS/cmsy/m/n/10.53937 2 \OML/cmm/m/it/10.53937 k \OMS/cmsy/m
+/n/10.53937 n f\OT1/cmr/m/n/10.53937 0\OMS/cmsy/m/n/10.53937 g$\TU/lmr/m/n/10.5
+3937 , \TU/SimSun(0)/m/n/10.53937 则 $\OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53
+937 X[]; []  ; X[]; t\OT1/cmr/m/n/10.53937 ) [] \OML/cmm/m/it/10.53937 V\OT1/cm
+r/m/n/10.53937 (\OML/cmm/m/it/10.53937 f\OT1/cmr/m/n/10.53937 ) (\OMS/cmsy/m/n/
+10.53937 8\OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 X[]; []  ; X[]\OT1/cmr/
+m/n/10.53937 ) \OMS/cmsy/m/n/10.53937 2
  []
 
 
-Underfull \vbox (badness 4686) has occurred while \output is active []
+Overfull \hbox (8.17668pt too wide) in paragraph at lines 2182--2182
+|\TU/SimSun(0)/m/n/10.53937 习 题 \TU/lmr/m/n/10.53937 3.14 \TU/SimSun(0)/m/n/10.
+53937 举 例 说 明 \TU/lmr/m/n/10.53937 (3.13) \TU/SimSun(0)/m/n/10.53937 关 于 诺 特 正 
+规 化 引 理 的 证 明 在 有 限 域 $\OML/cmm/m/it/10.53937 k$ \TU/SimSun(0)/m/n/10.53937 上 不
+ 成 立\TU/lmr/m/n/10.53937 .(\TU/SimSun(0)/m/n/10.53937 提 示\TU/lmr/m/n/10.53937 :
+ \TU/SimSun(0)/m/n/10.53937 对 $\OML/cmm/m/it/10.53937 F[]\OT1/cmr/m/n/10.53937 
+(\OML/cmm/m/it/10.53937 ^^K; \OT1/cmr/m/n/10.53937 1) =
+ []
 
- [41]
-[42]
-Chapter 4.
-[43
+[51] [52] [53] [54
 
 ]
-Overfull \hbox (27.94774pt too wide) in paragraph at lines 1895--1896
-[]\TU/SimSun(0)/bx/n/10.53937 定 义 \TU/SimSun(0)/m/n/10.53937 称 一 个 映 射 \TU/lmr/
-m/n/10.53937 f:V $\OMS/cmsy/m/n/10.53937 )$\TU/lmr/m/n/10.53937 W \TU/SimSun(0)
-/m/n/10.53937 是 多 项 式 映 射\TU/lmr/m/n/10.53937 , \TU/SimSun(0)/m/n/10.53937 如 果 
-存 在 \TU/lmr/m/n/10.53937 m \TU/SimSun(0)/m/n/10.53937 个 多 项 式 $\OML/cmm/m/it/10
-.53937 F[]; F[] []  ; F[] \OMS/cmsy/m/n/10.53937 2 \OML/cmm/m/it/10.53937 k\OT1
-/cmr/m/n/10.53937 [\OML/cmm/m/it/10.53937 X[]; X[] []  ; X[]\OT1/cmr/m/n/10.539
-37 ]$\TU/lmr/m/n/10.53937 ,
- []
-
+Chapter 4.
+[55]
 File: 68.jpg Graphic file (type bmp)
 <68.jpg>
-[44] [45] [46] [47] [48]
+ [56] [57] [58] [59] [60]
 File: 75.jpg Graphic file (type bmp)
 <75.jpg>
- [49] [50
-
-]
+ [61] [62]
 Chapter 5.
 File: 50.jpg Graphic file (type bmp)
 <50.jpg>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[51] [52] [53] [54] [55] (./miles3.aux) ) 
+[63
+
+] [64]
+Overfull \hbox (8.45795pt too wide) in paragraph at lines 2659--2660
+[]\TU/SimSun(0)/m/n/10.53937 在 仿 射 意 义 的 对 应 下\TU/lmr/m/n/10.53937 , \TU/SimSun
+(0)/m/n/10.53937 对 于 任 意 理 想 $\OML/cmm/m/it/10.53937 J$ \TU/SimSun(0)/m/n/10.53
+937 的 $\OML/cmm/m/it/10.53937 I\OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 V\
+OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 J\OT1/cmr/m/n/10.53937 )) \OMS/cms
+y/m/n/10.53937 ^^[ \OML/cmm/m/it/10.53937 radJ$ \TU/SimSun(0)/m/n/10.53937 和 对 
+于 任 意 代 数 集 $\OML/cmm/m/it/10.53937 X$ \TU/SimSun(0)/m/n/10.53937 的 $\OML/cmm/m
+/it/10.53937 V\OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 I\OT1/cmr/m/n/10.53
+937 (\OML/cmm/m/it/10.53937 X\OT1/cmr/m/n/10.53937 )) =
+ []
+
+[65] [66] [67] [68]
+File: 57.jpg Graphic file (type bmp)
+<57.jpg>
+ [69]
+File: 58.jpg Graphic file (type bmp)
+<58.jpg>
+ [70] [71] [72] [73]
+Overfull \hbox (3.50206pt too wide) in paragraph at lines 3115--3117
+\TU/SimSun(0)/m/n/10.53937 这 条 曲 线 被 称 为 \TU/SimSun(0)/m/it/10.53937 三 次 挠 线\TU
+/lmr/m/n/10.53937 , \TU/SimSun(0)/m/n/10.53937 其 中 \TU/SimSun(0)/m/it/10.53937 
+挠 \TU/SimSun(0)/m/n/10.53937 代 表 这 不 是 一 个 平 面 曲 线\TU/lmr/m/n/10.53937 . \TU/Si
+mSun(0)/m/n/10.53937 验 证 对 于 任 意 两 个 二 次 曲 面 $\OML/cmm/m/it/10.53937 Q[]; Q[];$
+
+ []
+
+[74]
+Overfull \hbox (1.81815pt too wide) in paragraph at lines 3224--3225
+[]\TU/SimSun(0)/m/n/10.53937 如 果 $\OML/cmm/m/it/10.53937 W[]; i \OT1/cmr/m/n/10
+.53937 = 1\OML/cmm/m/it/10.53937 ; \OT1/cmr/m/n/10.53937 2$ \TU/SimSun(0)/m/n/1
+0.53937 不 是 代 数 集\TU/lmr/m/n/10.53937 , \TU/SimSun(0)/m/n/10.53937 则 $\OML/cmm/
+m/it/10.53937 W[] \U/msb/m/n/10.53937 & \OML/cmm/m/it/10.53937 V [] ; V \OMS/cm
+sy/m/n/10.53937 ^^B \OML/cmm/m/it/10.53937 W[] \U/msb/m/n/10.53937 & \OMS/cmsy/
+m/n/10.53937 f\OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 ^^K[]; [] ; ^^K[]; 
+^^L[]; [] ; ^^L[]\OT1/cmr/m/n/10.53937 )\OMS/cmsy/m/n/10.53937 j\OML/cmm/m/it/1
+0.53937 f\OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 ^^K\OT1/cmr/m/n/10.53937
+ ) =
+ []
+
+[75] [76] [77] [78
+
+]
+Chapter 6.
+Missing character: There is no ） in font [lmroman10-regular]:mapping=tex-text;!
+File: pic.png Graphic file (type bmp)
+<pic.png>
+[79] [80] [81] [82] [83]
+Overfull \hbox (12.5848pt too wide) in paragraph at lines 3610--3611
+\TU/SimSun(0)/m/n/10.53937 的 情 况 下\TU/lmr/m/n/10.53937 , \TU/SimSun(0)/m/n/10.5
+3937 一 个 分 解 总 是 可 以 由 一 系 列 放 大 所 包 含\TU/lmr/m/n/10.53937 . \TU/SimSun(0)/m/n/
+10.53937 分 解 的 过 程 给 出 了 奇 点 的 详 细 信 息\TU/lmr/m/n/10.53937 .H.Hironaka
+ []
+
+[84]
+Chapter 7.
+File: 102.jpg Graphic file (type bmp)
+<102.jpg>
+[85
+
+] [86]
+Overfull \hbox (18.33249pt too wide) in paragraph at lines 3712--3713
+[]\TU/SimSun(0)/bx/n/10.53937 步 骤 \TU/lmr/bx/n/10.53937 4  \TU/lmr/m/n/10.53937
+ (\TU/SimSun(0)/m/n/10.53937 消 除 计 算\TU/lmr/m/n/10.53937 ) \TU/SimSun(0)/m/n/10
+.53937 我 现 在 从 以 上 三 个 方 程 中 消 除 $\OML/cmm/m/it/10.53937 Y; Z; T$\TU/lmr/m/n/10
+.53937 , \TU/SimSun(0)/m/n/10.53937 关 注 $\OML/cmm/m/it/10.53937 ^^K$ \TU/SimSun
+(0)/m/n/10.53937 的 最 高 次 项\TU/lmr/m/n/10.53937 . \TU/SimSun(0)/m/n/10.53937 因 为
+ $\OML/cmm/m/it/10.53937 g\OT1/cmr/m/n/10.53937 (0\OML/cmm/m/it/10.53937 ; \OT1
+/cmr/m/n/10.53937 0\OML/cmm/m/it/10.53937 ; \OT1/cmr/m/n/10.53937 1\OML/cmm/m/i
+t/10.53937 ; \OT1/cmr/m/n/10.53937 0) =
+ []
+
+[87]
+File: 106.jpg Graphic file (type bmp)
+<106.jpg>
+ [88] [89]
+File: 109.jpg Graphic file (type bmp)
+<109.jpg>
+File: 1092.jpg Graphic file (type bmp)
+<1092.jpg>
+ [90]
+Missing character: There is no 种 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 选 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 择 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 种 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 选 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 择 in font [lmroman10-regular]:mapping=tex-text;!
+ [91] (./miles3.aux) ) 
 Here is how much of TeX's memory you used:
- 27353 strings out of 494895
- 602009 string characters out of 6175937
+ 27377 strings out of 494895
+ 601714 string characters out of 6175937
  645078 words of memory out of 5000000
- 30777 multiletter control sequences out of 15000+600000
- 548610 words of font info for 126 fonts, out of 8000000 for 9000
+ 30790 multiletter control sequences out of 15000+600000
+ 548618 words of font info for 127 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  55i,18n,68p,10438b,347s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on miles3.pdf (55 pages).
+Output written on miles3.pdf (91 pages).
